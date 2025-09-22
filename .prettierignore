@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production build
+/build
+/dist
+
+# Environment variables
+.env*.local
+
+# Cache directories
+.cache
+.parcel-cache
+
+# Other
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# Prettier ignore specific files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
