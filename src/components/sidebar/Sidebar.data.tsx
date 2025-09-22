@@ -16,7 +16,7 @@ export const ITEMS = [
     icon: <IoCheckboxOutline size={23} />,
   },
   {
-    href: '/dashboard/rest-todos',
+    href: '/dashboard/server-todos',
     text: 'Server actions',
     icon: <IoListOutline size={23} />,
   },
